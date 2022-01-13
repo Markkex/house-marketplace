@@ -65,7 +65,7 @@ const Listing = () => {
           }, 2000);
         }}
       >
-        <img src={shareIcon} alt="image" />
+        <img src={shareIcon} alt="share" />
       </div>
       {shareLinkCopied && <p className="linkCopied">Link Copied!</p>}
 
